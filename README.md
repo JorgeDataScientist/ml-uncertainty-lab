@@ -33,14 +33,20 @@ Construir, paso a paso, un **prototipo de autovalidación estadística** que:
 ```text
 ml-uncertainty-lab/
 │
-├── 00_setup/                 # entorno, helpers, métricas comunes
-├── 01_fundamentos/           # scores vs probabilidades
-├── 02_evaluacion_confianza/  # Brier, ECE, calibration curves
-├── 03_calibracion/           # Platt, Isotonic, Temperature Scaling
-├── 04_variabilidad/          # Ensembles, MC-style uncertainty
-├── 05_entropia/              # Entropía como señal de duda
-├── 06_structured_outputs/    # Confianza por campo (PRISMA-like)
-├── 07_certs_like/            # Top-2 delta y CeRTS simplificado
+├── 00_setup/                  # entorno, helpers, métricas comunes
+├── 01_fundamentos/            # scores vs probabilidades
+├── 02_evaluacion_confianza/   # Brier, ECE, calibration curves
+├── 03_calibracion/            # Platt, Isotonic, Temperature Scaling
+├── 04_variabilidad/           # Ensembles, MC-style uncertainty
+├── 05_entropia/               # Entropía como señal de duda
+├── 06_structured_outputs/     # Confianza por campo (PRISMA-like)
+├── 07_certs_like/             # Top-2 delta y CeRTS simplificado
+├── 08_alternatives/           # Alternativas actuales y fiables a CeRTS
+│   ├── 08_01_conformal/        # Conformal Prediction (cobertura/intervalos)
+│   ├── 08_02_ensembles/        # Deep ensembles como señal robusta
+│   ├── 08_03_logit_gap/        # Top-k margin / logit gap (baseline fuerte)
+│   └── 08_04_comparison/       # Matriz comparativa orientada a PRISMA
 │
-└── reports/                  # conclusiones cortas por bloque
+└── reports/                   # conclusiones cortas por bloque
+
 
